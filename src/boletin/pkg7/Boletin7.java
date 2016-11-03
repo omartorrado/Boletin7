@@ -22,10 +22,6 @@ public class Boletin7 {
         libro_002.setAutor("J.R.R. Tolkien");
         libro_002.setEjemplares(1);
         libro_002.ToString();
-        libro_001.Prestamo();
-        libro_001.ToString();
-        libro_001.Devolucion();
-        libro_001.ToString();
         Libro libro_003= new Libro("a","b",1,1);
     }
     
