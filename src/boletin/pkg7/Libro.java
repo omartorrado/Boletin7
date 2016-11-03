@@ -64,5 +64,11 @@ public class Libro {
         else{
             return false;}
         }
+    //Metodo to string
+    public void ToString(){
+        System.out.println("Titulo: "+titulo+"\nAutor: "+autor+
+                "\nNº de ejemplares: "+ejemplares+"\nEjemplares "
+                + "disponibles "+(ejemplares-prestados));
+    }
     
 }
