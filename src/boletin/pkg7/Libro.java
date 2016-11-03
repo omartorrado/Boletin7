@@ -52,6 +52,7 @@ public class Libro {
     public boolean Prestamo(){
         if (this.ejemplares>this.prestados){
             this.prestados++;
+            System.out.println("Disfrute de su libro");
             return true;
             }
         else{
@@ -63,6 +64,7 @@ public class Libro {
     public boolean Devolucion(){
         if (this.prestados>0){
         this.prestados--;
+            System.out.println("Le agradecemos que haya devuelto el libro");
         return true;}
         else{
             System.out.println("Todos los ejemplares estan en la biblioteca");
