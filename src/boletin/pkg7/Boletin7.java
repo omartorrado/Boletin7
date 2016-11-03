@@ -22,6 +22,7 @@ public class Boletin7 {
         libro_001.ToString();
         libro_001.Devolucion();
         libro_001.ToString();
+        Libro libro_003= new Libro("a","b",1,1);
     }
     
 }
