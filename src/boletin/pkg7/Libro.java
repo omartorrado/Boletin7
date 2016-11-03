@@ -55,6 +55,7 @@ public class Libro {
             return true;
             }
         else{
+            System.out.println("No quedan ejemplares disponibles");
             return false;
         }
     }
@@ -64,6 +65,7 @@ public class Libro {
         this.prestados--;
         return true;}
         else{
+            System.out.println("Todos los ejemplares estan en la biblioteca");
             return false;}
         }
     //Metodo to string
