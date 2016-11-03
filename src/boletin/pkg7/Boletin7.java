@@ -17,6 +17,11 @@ public class Boletin7 {
     public static void main(String[] args) {
         // TODO code application logic here
         Libro libro_001=new Libro("El Quijote", "Miguel de Cervantes", 12 , 12);
+        Libro libro_002=new Libro();
+        libro_002.setTitulo("El Señor de los anillos");
+        libro_002.setAutor("J.R.R. Tolkien");
+        libro_002.setEjemplares(1);
+        libro_002.ToString();
         libro_001.Prestamo();
         libro_001.ToString();
         libro_001.Devolucion();
