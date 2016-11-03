@@ -5,6 +5,8 @@
  */
 package boletin.pkg7;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author otorradomiguez
@@ -66,7 +68,7 @@ public class Libro {
         }
     //Metodo to string
     public void ToString(){
-        System.out.println("Titulo: "+titulo+"\nAutor: "+autor+
+        JOptionPane.showMessageDialog(null, "Titulo: "+titulo+"\nAutor: "+autor+
                 "\nNº de ejemplares: "+ejemplares+"\nEjemplares "
                 + "disponibles "+(ejemplares-prestados));
     }
